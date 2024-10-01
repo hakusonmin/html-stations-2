@@ -1,8 +1,7 @@
-function displayList () {
+function displayList() {
   const fruits = document.getElementById('fruits');
   const Button = document.getElementById('Button');
 
-  Button.addEventListener('click', function() {
     const ulElement = document.createElement('ul');
 
     const paragraphs = fruits.querySelectorAll('p');
@@ -14,6 +13,6 @@ function displayList () {
 
     fruits.innerHTML = '';
     fruits.appendChild(ulElement);
-  });
+  
 
 };
